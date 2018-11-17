@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./Css/swiper.min.css">
+    <title>Document</title>
+    <style>
+        html,body{
+            height: 100%;
+            width: 100%;
+            padding: 0%;
+            margin: 0%;
+        }
+        .swiper-container{
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .page1{
+            background: #000;
+        }
+        .page2{
+            background: #309;
+        }
+        .page3{
+            background: #620;
+        }
+    </style>
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide page1">slide1</div>
+            <div class="swiper-slide page2">slide2</div>
+            <div class="swiper-slide page3">slide3</div>
+        </div>
+    </div>
+    <script src="./Js/zepto.js"></script>
+    <script src="./Js/touch.js"></script>
+    <script src="/Js/swiper.min.js"></script>
+    <script>
+            window.onload=function(){
+                var mySwiper=new Swiper('.swiper-container',
+                {
+                    loop:true,
+                    effect:'coverflow',
+                    on:{
+                        transitionEnd:function(){
+                            console.log(this.activeIndex)
+                        }
+                    }
+                })
+            }
+            
+    </script>
+</body>
+</html>
