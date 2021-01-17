@@ -114,7 +114,7 @@ html,body{
     left: 50%;
     margin-left: -3.1rem;
     bottom: 1.1rem;
-    background-image: url(/Image/call2.png);
+    background-image: url(../Image/call2.png);
     background-size: 100% 106%;
     background-position-x: center;
 }
@@ -152,7 +152,7 @@ html,body{
 	height: 5.2rem;
 	left: 50%;
 	margin-left: -2.1rem;
-	background: url(/Image/receive1.png) no-repeat;
+	background: url(../Image/receive1.png) no-repeat;
 	background-size: 100% 100%;
 	-webkit-transform: translateY(6.89rem);
 	transform: translateY(6.89rem);
@@ -357,7 +357,7 @@ html,body{
 	z-index: 1000;
 	width: .64rem;
 	height: .75rem;
-	background: url('/Image/go-back.png');
+	background: url('../Image/go-back.png');
 	background-size: 100% 100%;
 }
 .swiper-container{
@@ -1185,7 +1185,7 @@ html,body{
 		left:1rem;
 		width: 3.76rem;
 		height: .82rem;
-		background: url('/Image/009.jpg');
+		background: url('../Image/009.jpg');
 		background-size: 100% 100%;
 		opacity: 0;
 	}
@@ -1195,7 +1195,7 @@ html,body{
 	bottom: 0%;
 	width: 3.62rem;
 	height: .38rem;
-	background: url('/Image/010.jpg');
+	background: url('../Image/010.jpg');
 	background-size: 100% 100%;
 	opacity: 0;
 }
@@ -1300,11 +1300,11 @@ html,body{
 	border-radius: 50%;
 }
 .page6 .concat li:nth-child(1) .icon{
-	background: url('/Image/014.jpg') no-repeat;
+	background: url('../Image/014.jpg') no-repeat;
 	background-size: 100% 100%;
 }
 .page6 .concat li:nth-child(2) .icon{
-	background: url('/Image/015.jpg') no-repeat;
+	background: url('../Image/015.jpg') no-repeat;
 	background-size: 100% 100%;
 }
 .page6 .concat .textCon{
